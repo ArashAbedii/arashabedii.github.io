@@ -1,0 +1,543 @@
+.debug {
+    background-color: rebeccapurple;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+.vh-100 {
+    height: 100vh;
+}
+
+.padding-0 {
+    padding: 0;
+}
+
+/*FONTS */
+p {
+    font-family: sans-serif;
+}
+
+a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 , span {
+    font-family: sans-serif;
+}
+
+.slide-welcome-image {
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+.slider-header {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: red;
+    font-size: 38px;
+    text-align: center;
+}
+
+.position-relative {
+    position: relative;
+}
+
+
+.my-navbar-color {
+    background-color: rgb(33, 0, 85);
+}
+
+.my-navbar-toggler {
+    border: 2px solid #b4a5a5 !important;
+    box-shadow: unset !important;
+    position: absolute;
+    right: 15px;
+    top: 5px;
+}
+
+
+.my-navbar-toggler-icon {
+    font-size: 25px;
+    color: #b4a5a5;
+}
+
+.menu {
+    display: none;
+}
+
+.my-navbar-items-center {
+    text-align: center;
+}
+
+.my-navbar-ul-items-center {
+    margin: 0 auto;
+}
+
+.image-circle {
+    width: 250px;
+    margin: 25px auto;
+    box-shadow: 0px 0px 10px 3px rgb(26, 26, 26);
+}
+
+
+
+
+
+.my-card-profile {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 960;
+}
+
+.my-card-profile p {
+    font-size: 20px;
+    color: #dbf6e9;
+}
+
+
+.my-card-profile p:first-child {
+    font-size: 38px;
+    color: #dbf6e9;
+}
+
+.my-card-profile-background {
+    background-color:#31326f;
+}
+
+.card {
+    background-color: #31326f;
+    border: none;
+    color: white;
+}
+
+.my-card-btn-link {
+    margin: 20px auto;
+    text-decoration: unset;
+    background: #3c415c;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #ccffbd;
+    border: 1px solid #b4a5a5;
+    text-align: center;
+}
+.my-card-btn-link:hover {
+    color:#7eca9c;
+    background: #301b3f;
+}
+
+.about-me::before{
+    display: block;
+    content: " ";
+    height: 3px;
+    width: 80px;
+    background-color: #301b3f;
+    margin: 10px auto;
+}
+
+.about-me h1 {
+    color: #301b3f;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.about-me p {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.about-me {
+    margin-bottom: 40px;
+}
+
+.about-me-text {
+    color: wheat;
+    text-align: left;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.about-me-text P {
+    padding-left: 10px;
+}
+
+.navbar .my-navbar-items-center .nav-item a {
+    text-align: center;
+    font-size: 20px;
+    width: 150px;
+    height: auto;
+    color: beige;
+    font-weight: 65;
+    text-decoration: none;
+    padding: 10px 5px;
+    display: inline-block;
+}
+
+.navbar .my-navbar-items-center .nav-item a:hover {
+    color: rgba(255, 9, 153, 1);
+    background-color: rgba(255, 9, 153, 0.1);
+    border-radius: 3px;
+    font-weight: 88px;
+}
+
+
+.my-sticky {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 3px;
+    transition: 0.2s;
+    z-index: 25;
+}
+
+body {
+    background: #d8ebe4;
+}
+
+.my-skill-container {
+    background-color: #301b3f;
+    text-align: center;
+}
+
+#dataReadonlyReview {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.my-skill-container span {
+    color: beige !important;
+}
+
+.my-skill-star-row {
+    margin: 10px auto;
+}
+
+.my-skill-star-row span {
+    display: block;
+    text-align: left;
+    width: 100%;
+}
+.my-skill-container h1 {
+    color: beige;
+}
+
+.my-portfolio-row div {
+    padding: 2px 4px !important;
+}
+.my-portfolio-container p {
+    margin-bottom: 40px;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.my-portfolio-container a {
+    text-decoration: n;
+}
+
+.my-portfolio-container {
+    background: #f8f4e1;
+}
+
+.my-portfolio-container h1 {
+    color: #007580;
+    margin: 10px auto 40px auto;
+}
+
+.about-me-text p {
+    margin-bottom: 10px;
+}
+
+#myImg {
+    border-radius: 2%;
+}
+
+.my-portfolio-container h1::before {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: #282846;
+    margin: 10px auto;
+}
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+  
+/* Modal Content (image) */
+.modal-content {
+margin: auto;
+display: block;
+width: 80%;
+max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+margin: auto;
+display: block;
+width: 80%;
+max-width: 700px;
+text-align: center;
+color: #ccc;
+padding: 10px 0;
+height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+-webkit-animation-name: zoom;
+-webkit-animation-duration: 0.6s;
+animation-name: zoom;
+animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+from {-webkit-transform:scale(0)} 
+to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+from {transform:scale(0)} 
+to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+position: absolute;
+top: 35px;
+right: 35px;
+color: #f1f1f1;
+font-size: 40px;
+font-weight: bold;
+transition: 0.3s;
+}
+
+
+
+.close:hover,
+.close:focus {
+color: #bbb;
+text-decoration: none;
+cursor: pointer;
+}
+
+.my-contact a {
+text-decoration: none;
+font-size: 26px;
+text-align: center;
+display: inline-block;
+}
+
+.my-contact h1 a {
+    color: #7eca9c;
+    margin-bottom: 15px;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 5px;
+}
+
+.my-contact h1 a:hover {
+    background-color: transparent;
+    border-bottom: 2px solid #387c6d;
+    
+}
+
+.my-contact-icons-row {
+text-align:center;
+}
+
+.my-contact {
+    padding: 10px;
+}
+
+.my-contact h1::before {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color: #ccffbd;
+    margin: 10px auto;
+}
+.my-contact h1 {
+    text-align: center;
+    margin: 10px auto 0px auto;
+}
+.github {
+    color: #b4a5a5;
+}
+
+.github:hover , .phone:hover {
+    color: #e0dfdf;
+}
+.linkedin:hover {
+    color: #1ca3c9;
+}
+.instagram:hover {
+    color: #c44fd1;
+}
+.linkedin {
+    color: #1687a7;
+}
+
+.instagram {
+    color: #93329e;
+}
+
+.email {
+    color: #7eca9c;
+}
+
+.email:hover {
+    color: #a0f1c1;
+}
+.my-copyright {
+    text-align: center;
+    color: #b4a5a5;
+    margin-bottom: 10px;
+}
+
+.my-portfolio-row1 {
+    text-align: center;
+} 
+
+.my-portfolio-row1 h1 {
+    font-size: 20px;
+}
+
+footer {
+    background-color: #222831;
+}
+
+.my-contact-icons-row ul li {
+display: inline-block;
+width: 30px;
+height: 28px;
+list-style: none;
+margin-bottom: 2px;
+}
+
+@media only screen and (max-width:988px){
+    .menu {
+        display:inline-block;
+        font-size: 24px;
+        font-weight: 90;
+        color: white;
+    }
+
+    .image-circle {
+        width: 160px;
+    }
+
+    .my-card-btn-link {
+        font-size: 14px;
+    }
+
+    #dataReadonlyReview {
+        font-size: 12px;
+        float: left;
+    }
+
+    .my-skill-container span {
+        color: beige !important;
+        font-size: 10px;
+        text-align: left;
+        float: left;
+        padding-top: 3px;
+    }
+
+    .col-sm-12 {
+        margin: 0 auto !important;
+    }
+
+    .my-skill-star-row {
+       /* padding-left: 40px;*/
+    }
+
+    .my-skill-container h1 {
+        font-size: 18px !important;
+    }
+
+}
+
+@media only screen and (max-width:850px){
+    .slide-welcome-image {
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+    }
+
+    .my-contact h1 a {
+        font-size: 18px;
+    }
+
+    .my-copyright {
+        font-size: 15px;
+    }
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+
+    .close {
+        position: absolute;
+        right: 20px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+        z-index: 160;
+        top: 50px;
+    }
+
+    .about-me p {
+        font-size: 13px;
+    }
+
+    .about-me-text {
+        font-size: 14px;
+    }
+
+    .my-portfolio-container p {
+        font-size: 15px;
+    }
+}
+
+
