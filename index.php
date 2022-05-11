@@ -95,7 +95,7 @@
                     <div class="col-md-3"></div>
                     <div class="col-md-6 my-card-profile-background">
                         <div class="card">
-                            <img class="card-img-top image-circle rounded-circle" src="https://i.ibb.co/WVYKvhZ/me.jpg" alt="Card image cap">
+                            <img class="card-img-top image-circle rounded-circle" src="https://i.ibb.co/nRwKZvC/me.jpg" alt="Card image cap">
                             <div class="card-body my-card-profile">
                                 <p class="card-text">Arash Abedi</p>
                                 <p class="card-text">Software Engineer</p>
