@@ -100,7 +100,7 @@
                                 <p class="card-text">Arash Abedi</p>
                                 <p class="card-text">Software Engineer</p>
                             </div>
-                            <a href="files/ArashAbedi-BackEnd.pdf" download class="my-card-btn-link">DOWNLOAD RESUME</a>
+                            <a href="files/BackendDeveloper-ArashAbedi.pdf" download class="my-card-btn-link" target="_blank">DOWNLOAD RESUME</a>
                         </div>
                     </div>
                     <div class="col-md-3"></div>
@@ -115,10 +115,15 @@
                 <div class="row">
                     
                     <div class="col-md-9 my-0 mx-auto pt-5">
-                        <p>My name is Arash Abedi. I'm from iran and I'm 23 years old.</p>
-                        <p>I'm studying computer engineering at AZAD UNIVERSITY in Qaemshahr (2018-present).</p>
-                        <p>I started programming since 2017.I worked on many different projects. My main skill is back-end but I can work on front-end too.</p>
-                        <p>I love programming and learning new things.</p>
+                    <p>my name is Arash</p>
+                    <p>I'm 23 years old</p>
+                    <p>I'm much interested in programming</p>
+                    <p>I love challenges and learning new things</p>
+                    <p>I started programming by creating my small real projects since 2017</p>
+                    <p>and then I developed different projects by these tools: PHP, Laravel, Mysql, Redis, SQLite, Bootstrap, JQuery, Javascript and so on</p>
+
+                    <p>I worked on many different projects and you can see my skills on</p>
+                    <p>my <a href="https://github.com/ArashAbedii" target="_blank">GitHub</a></p>
                     </div>
                     
                 </div>
@@ -140,7 +145,7 @@
                                         <span>PHP</span>
                                     </div>
                                     <div class="col-md-6 col-6">
-                                        <div id="dataReadonlyReview" data-rating-stars="5" data-rating-readonly="true" data-rating-value="5" data-rating-input="#dataReadonlyInput" rating="true" style="color: rgb(252, 215, 3);">
+                                        <div id="dataReadonlyReview" data-rating-stars="5" data-rating-readonly="true" data-rating-value="4" data-rating-input="#dataReadonlyInput" rating="true" style="color: rgb(252, 215, 3);">
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
@@ -191,7 +196,7 @@
                                         <span>LARAVEL</span>
                                     </div>
                                     <div class="col-md-6 col-6">
-                                        <div id="dataReadonlyReview" data-rating-stars="5" data-rating-readonly="true" data-rating-value="3" data-rating-input="#dataReadonlyInput" rating="true" style="color: rgb(252, 215, 3);">
+                                        <div id="dataReadonlyReview" data-rating-stars="5" data-rating-readonly="true" data-rating-value="4" data-rating-input="#dataReadonlyInput" rating="true" style="color: rgb(252, 215, 3);">
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
@@ -225,6 +230,40 @@
                                         <span>REST API</span>
                                     </div>
                                     <div class="col-md-6 col-6">
+                                        <div id="dataReadonlyReview" data-rating-stars="5" data-rating-readonly="true" data-rating-value="5" data-rating-input="#dataReadonlyInput" rating="true" style="color: rgb(252, 215, 3);">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>
+
+                            <div class="col-md-12 col-8 my-skill-star-row">
+                                <div class="row">
+                                    <div class="col-md-6 col-6">
+                                        <span>Web Scraping</span>
+                                    </div>
+                                    <div class="col-md-6 col-6">
+                                        <div id="dataReadonlyReview" data-rating-stars="5" data-rating-readonly="true" data-rating-value="4" data-rating-input="#dataReadonlyInput" rating="true" style="color: rgb(252, 215, 3);">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>
+
+                            <div class="col-md-12 col-8 my-skill-star-row">
+                                <div class="row">
+                                    <div class="col-md-6 col-6">
+                                        <span>Selenum</span>
+                                    </div>
+                                    <div class="col-md-6 col-6">
                                         <div id="dataReadonlyReview" data-rating-stars="5" data-rating-readonly="true" data-rating-value="4" data-rating-input="#dataReadonlyInput" rating="true" style="color: rgb(252, 215, 3);">
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
@@ -253,13 +292,32 @@
                                 </div>  
                             </div>
 
+
+                            <div class="col-md-12 col-8 my-skill-star-row">
+                                <div class="row">
+                                    <div class="col-md-6 col-6">
+                                        <span>Vue js</span>
+                                    </div>
+                                    <div class="col-md-6 col-6">
+                                        <div id="dataReadonlyReview" data-rating-stars="5" data-rating-readonly="true" data-rating-value="3" data-rating-input="#dataReadonlyInput" rating="true" style="color: rgb(252, 215, 3);">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>
+
+
                             <div class="col-md-12 col-8 my-skill-star-row">
                                 <div class="row">
                                     <div class="col-md-6 col-6">
                                         <span>HTML</span>
                                     </div>
                                     <div class="col-md-6 col-6">
-                                        <div id="dataReadonlyReview" data-rating-stars="5" data-rating-readonly="true" data-rating-value="3" data-rating-input="#dataReadonlyInput" rating="true" style="color: rgb(252, 215, 3);">
+                                        <div id="dataReadonlyReview" data-rating-stars="5" data-rating-readonly="true" data-rating-value="4" data-rating-input="#dataReadonlyInput" rating="true" style="color: rgb(252, 215, 3);">
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
@@ -293,7 +351,7 @@
                                         <span>JAVASCRIPT</span>
                                     </div>
                                     <div class="col-md-6 col-6">
-                                        <div id="dataReadonlyReview" data-rating-stars="5" data-rating-readonly="true" data-rating-value="2" data-rating-input="#dataReadonlyInput" rating="true" style="color: rgb(252, 215, 3);">
+                                        <div id="dataReadonlyReview" data-rating-stars="5" data-rating-readonly="true" data-rating-value="3" data-rating-input="#dataReadonlyInput" rating="true" style="color: rgb(252, 215, 3);">
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
@@ -407,6 +465,24 @@
                     <div class="col-md-4 col-sm-12 col-12">
                         <img class="myImg" src="https://ddlouadd.sirv.com/Images/jpmusic.jpg" alt="Music Stream Telegram Bot" style="width:100%;max-width:300px">
                         <p>Music Stream Telegram Bot<br><a href="https://t.me/jpmusicbot?start"><small>open bot</small></a></p>
+                        
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 col-12">
+                        <img class="myImg" src="https://ddlouadd.sirv.com/Images/TeleBot" alt="PHP framework for creating telegram bots ( TeleBot )" style="width:100%;max-width:300px">
+                        <p>PHP framework for creating telegram bots (TeleBot)<br><a href="https://github.com/arashabedii/telebot"><small>github</small></a></p>
+                        
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 col-12">
+                        <img class="myImg" src="https://ddlouadd.sirv.com/Images/GDServices" alt="Google Drive Webservices Wrapper" style="width:100%;max-width:300px">
+                        <p>Google Drive Webservices Wrapper<br><a href="https://gdservices.herokuapp.com"><small>open website</small></a></p>
+                        
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 col-12">
+                        <img class="myImg" src="https://ddlouadd.sirv.com/Images/Flora" alt="Flowers shopping website ( Flora )" style="width:100%;max-width:300px">
+                        <p>Flowers shopping website ( Flora )</p>
                         
                     </div>
 
