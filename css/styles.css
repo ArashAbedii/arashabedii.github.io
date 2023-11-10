@@ -232,8 +232,13 @@ body {
     color: beige !important;
 }
 
-.my-skill-star-row {
+/* .my-skill-star-row {
     margin: 10px auto;
+} */
+
+.skills{
+    background-color: #31326F;
+    color: #DBF6E9;
 }
 
 .my-skill-star-row span {
