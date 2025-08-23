@@ -1,431 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Arash Abedi | Software Engineer & Web Developer</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arash Abedi | Software Engineer & Web Developer</title>
+  <meta name="description"
+    content="Arash Abedi is a Software Engineer and Web Developer with 5+ years of experience. Specialized in building scalable websites, enterprise applications, and custom software solutions." />
 
-    <meta
-      name="description"
-      content="Arash Abedi is a Software Engineer and Web Developer with 5+ years of experience. Specialized in building scalable websites, enterprise applications, and custom software solutions."
-    />
+  <meta name="keywords"
+    content="Arash Abedi, Software Engineer, Web Developer, Website Design, Website Development, Build Website, Laravel Developer, Vue.js Developer, SEO Services, Enterprise Applications" />
 
-    <meta
-      name="keywords"
-      content="Arash Abedi, Software Engineer, Web Developer, Website Design, Website Development, Build Website, Laravel Developer, Vue.js Developer, SEO Services, Enterprise Applications"
-    />
+  <meta name="author" content="Arash Abedi" />
 
-    <meta name="author" content="Arash Abedi" />
+  <!-- Open Graph for social media -->
+  <meta property="og:title" content="Arash Abedi | Software Engineer & Web Developer" />
+  <meta property="og:description"
+    content="Professional Software Engineer offering website design, web development, and enterprise application solutions. Explore my GitHub projects and services." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://arashabedii.github.io" />
 
-    <!-- Open Graph for social media -->
-    <meta
-      property="og:title"
-      content="Arash Abedi | Software Engineer & Web Developer"
-    />
-    <meta
-      property="og:description"
-      content="Professional Software Engineer offering website design, web development, and enterprise application solutions. Explore my GitHub projects and services."
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://yourdomain.com" />
-    <meta property="og:image" content="https://yourdomain.com/preview.jpg" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Arash Abedi | Software Engineer & Web Developer" />
+  <meta name="twitter:description"
+    content="Website design, web development, and enterprise solutions by Arash Abedi." />
 
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="Arash Abedi | Software Engineer & Web Developer"
-    />
-    <meta
-      name="twitter:description"
-      content="Website design, web development, and enterprise solutions by Arash Abedi."
-    />
-    <meta name="twitter:image" content="https://yourdomain.com/preview.jpg" />
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { darkMode: 'class' }
+  </script>
+  <!-- Production version -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
 
-  <body>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-FW588G2LK1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+<body class="bg-gray-900 text-gray-100 min-h-screen flex items-center justify-center">
 
-      gtag("config", "G-FW588G2LK1");
-    </script>
+  <section class="max-w-4xl mx-auto p-8 text-center space-y-16">
 
-    <!--NAVBAR -->
-    <section>
-      <div class="my-nav">
-        <nav
-          class="navbar navbar-expand-lg navbar-light my-navbar-color my-sticky"
-        >
-          <div class="container py-2">
-            <button
-              class="navbar-toggler my-navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span><i class="fas fa-bars my-navbar-toggler-icon"></i></span>
-            </button>
-
-            <div class="menu"><p>Menu</p></div>
-
-            <div
-              class="collapse navbar-collapse my-navbar-items-center"
-              id="navbarSupportedContent"
-            >
-              <ul
-                class="navbar-nav me-auto mb-2 mb-lg-0 my-navbar-ul-items-center"
-              >
-                <!-- <li class="nav-item">
-                                    <a class="my-nav-link" aria-current="page" href="#">HOME</a>
-                                </li> -->
-                <li class="nav-item">
-                  <a class="my-nav-link" href="#about">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                  <a class="my-nav-link" href="#skill">SKILLS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="my-nav-link" href="#portfolio">PORTFOLIO</a>
-                </li>
-                <li class="nav-item">
-                  <a class="my-nav-link" href="#contact">CONTACT</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+    <!-- Intro -->
+    <div class="space-y-5">
+      <h1 class="text-4xl font-bold tracking-tight animate-fade-in">Hi, I’m <span class="text-indigo-400">Arash
+          Abedi</span></h1>
+      <p class="text-lg text-gray-300 animate-slide-up max-w-2xl mx-auto">A Software Engineer with 5+ years of
+        experience building and scaling enterprise applications. Skilled in designing robust architectures, writing
+        clean code, and mentoring team members to achieve their best.</p>
+      <div class="flex justify-center gap-4 pt-4 animate-fade-in-delay">
+        <a href="https://github.com/ArashAbedii"
+          class="flex items-center gap-2 rounded-lg bg-gray-800 px-4 py-2 text-gray-300 hover:bg-indigo-500 hover:text-white shadow-md transition transform hover:-translate-y-1 hover:shadow-lg">
+          <i data-lucide="github" class="w-5 h-5"></i>
+          <span>GitHub</span>
+        </a>
+        <a href="https://linkedin.com/in/arash-abedi"
+          class="flex items-center gap-2 rounded-lg bg-gray-800 px-4 py-2 text-gray-300 hover:bg-indigo-500 hover:text-white shadow-md transition transform hover:-translate-y-1 hover:shadow-lg">
+          <i data-lucide="linkedin" class="w-5 h-5"></i>
+          <span>LinkedIn</span>
+        </a>
+        <a href="mailto:arashabedi.dev@gmail.com"
+          class="flex items-center gap-2 rounded-lg bg-gray-800 px-4 py-2 text-gray-300 hover:bg-indigo-500 hover:text-white shadow-md transition transform hover:-translate-y-1 hover:shadow-lg">
+          <i data-lucide="mail" class="w-5 h-5"></i>
+          <span>Email</span>
+        </a>
       </div>
-    </section>
+    </div>
 
-    <!--MY PICTURE AND RESUME FILE -->
-    <section id="about">
-      <div class="container-fluid my-card-profile-background">
-        <div class="row">
-          <div class="col-md-3"></div>
-          <div class="col-md-6 my-card-profile-background mt-4">
-            <div class="card mt-5">
-              <img
-                class="card-img-top image-circle rounded-circle"
-                src="https://i.ibb.co/nRwKZvC/me.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body my-card-profile">
-                <p class="card-text">Arash Abedi</p>
-                <p class="card-text">Software Engineer</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3"></div>
-        </div>
+    <!-- Stacks -->
+    <div class="space-y-4 animate-slide-up">
+      <h2 class="text-2xl font-semibold">Tech Stack</h2>
+      <div class="flex flex-wrap justify-center gap-4">
+        <span
+          class="flex items-center gap-2 rounded-full bg-gray-800 px-4 py-2 text-sm text-gray-300 shadow hover:bg-gray-700 transition"><i
+            data-lucide="code" class="w-4 h-4"></i> PHP</span>
+        <span
+          class="flex items-center gap-2 rounded-full bg-gray-800 px-4 py-2 text-sm text-gray-300 shadow hover:bg-gray-700 transition"><i
+            data-lucide="code" class="w-4 h-4"></i> Laravel</span>
+        <span
+          class="flex items-center gap-2 rounded-full bg-gray-800 px-4 py-2 text-sm text-gray-300 shadow hover:bg-gray-700 transition"><i
+            data-lucide="database" class="w-4 h-4"></i> MySQL</span>
+        <span
+          class="flex items-center gap-2 rounded-full bg-gray-800 px-4 py-2 text-sm text-gray-300 shadow hover:bg-gray-700 transition"><i
+            data-lucide="database" class="w-4 h-4"></i> Redis</span>
+        <span
+          class="flex items-center gap-2 rounded-full bg-gray-800 px-4 py-2 text-sm text-gray-300 shadow hover:bg-gray-700 transition"><i
+            data-lucide="cloud" class="w-4 h-4"></i> REST API</span>
+        <span
+          class="flex items-center gap-2 rounded-full bg-gray-800 px-4 py-2 text-sm text-gray-300 shadow hover:bg-gray-700 transition"><i
+            data-lucide="search" class="w-4 h-4"></i> Web Scraping</span>
+        <span
+          class="flex items-center gap-2 rounded-full bg-gray-800 px-4 py-2 text-sm text-gray-300 shadow hover:bg-gray-700 transition"><i
+            data-lucide="layout" class="w-4 h-4"></i> Vue.js</span>
+        <span
+          class="flex items-center gap-2 rounded-full bg-gray-800 px-4 py-2 text-sm text-gray-300 shadow hover:bg-gray-700 transition"><i
+            data-lucide="layers" class="w-4 h-4"></i> Tailwind CSS</span>
+        <span
+          class="flex items-center gap-2 rounded-full bg-gray-800 px-4 py-2 text-sm text-gray-300 shadow hover:bg-gray-700 transition"><i
+            data-lucide="server" class="w-4 h-4"></i> RabbitMQ</span>
+        <span
+          class="flex items-center gap-2 rounded-full bg-gray-800 px-4 py-2 text-sm text-gray-300 shadow hover:bg-gray-700 transition"><i
+            data-lucide="boxes" class="w-4 h-4"></i> Microservices</span>
+        <span
+          class="flex items-center gap-2 rounded-full bg-gray-800 px-4 py-2 text-sm text-gray-300 shadow hover:bg-gray-700 transition"><i
+            data-lucide="git-branch" class="w-4 h-4"></i> DDD</span>
+        <span
+          class="flex items-center gap-2 rounded-full bg-gray-800 px-4 py-2 text-sm text-gray-300 shadow hover:bg-gray-700 transition"><i
+            data-lucide="check-circle" class="w-4 h-4"></i> SOLID Principles</span>
       </div>
-    </section>
+    </div>
 
-    <!--ABOUT ME -->
-    <section>
-      <div class="container-fluid about-me">
-        <h1>ABOUT ME</h1>
-        <div class="row">
-          <div class="col-md-9 my-0 mx-auto pt-5">
-            <p>
-              Software Engineer with 5+ years of experience building and scaling
-              enterprise applications. Skilled in designing robust
-              architectures, writing clean code, and mentoring team members to
-              achieve their best
-            </p>
-            <br />
-            <p>
-              You can see my stuff repos on my
-              <a href="https://github.com/ArashAbedii" target="_blank"
-                >GitHub</a
-              >
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- Projects -->
+    <div class="space-y-4 animate-fade-in-delay">
+      <h2 class="text-2xl font-semibold">Projects</h2>
+      <div class="grid gap-6 md:grid-cols-2">
 
-    <!--SKILL-->
-    <section id="skill">
-      <div class="container-fluid my-skill-container">
-        <div class="container pb-4">
-          <div class="row">
-            <h1 class="fw-bold fs-3 my-4">TECHNICAL SKILLS</h1>
-            <div class="row">
-              <div class="col-md-1 col-3 skills p-2 rounded m-1">PHP</div>
-
-              <div class="col-md-1 col-3 skills p-2 rounded m-1">Laravel</div>
-
-              <div class="col-md-1 col-3 skills p-2 rounded m-1">Lumen</div>
-
-              <div class="col-md-1 col-3 skills p-2 rounded m-1">MySQL</div>
-
-              <div class="col-md-1 col-3 skills p-2 rounded m-1">Redis</div>
-
-              <div class="col-md-1 col-5 skills p-2 rounded m-1">
-                Telegram bot
-              </div>
-
-              <div class="col-md-1 col-5 skills p-2 rounded m-1">REST API</div>
-
-              <div class="col-md-1 col-3 skills p-2 rounded m-1">Python</div>
-
-              <div class="col-md-2 col-5 skills p-2 rounded m-1">
-                Web scraping
-              </div>
-
-              <div class="col-md-1 col-4 skills p-2 rounded m-1">Bootstrap</div>
-
-              <div class="col-md-1 col-4 skills p-2 rounded m-1">
-                Tailwind css
-              </div>
-
-              <div class="col-md-1 col-4 skills p-2 rounded m-1">Vue js</div>
-
-              <div class="col-md-1 col-3 skills p-2 rounded m-1">Vuetify</div>
-
-              <div class="col-md-1 col-3 skills p-2 rounded m-1">HTML</div>
-
-              <div class="col-md-1 col-3 skills p-2 rounded m-1">CSS</div>
-
-              <div class="col-md-1 col-5 skills p-2 rounded m-1">
-                Javascript
-              </div>
-
-              <div class="col-md-2 col-5 skills p-2 rounded m-1">
-                Google Cloud
-              </div>
-
-              <div class="col-md-1 col-3 skills p-2 rounded m-1">jQuery</div>
-
-              <div class="col-md-2 col-5 skills p-2 rounded m-1">
-                Git & Github
-              </div>
-            </div>
-
-            <!-- <div class="row">
-              <div class="about-me-text">
-                <p>I have good expertise on back-end</p>
-                <p>
-                  For every project I try work with best methods and programing
-                  languages.my main programming language on back-end is PHP and
-                  I created many web applications by PHP and MYSQL. but
-                  sometimes I use PYTHON for special works
-                </p>
-                <p>
-                  I have good expertise on database design too. I worked on
-                  different databases like: MYSQL, SQLITE3, REDIS
-                </p>
-                <p>
-                  To work on front end, I usually use bootstrap. So I have good
-                  Experience in bootstrap too
-                </p>
-              </div>
-            </div> -->
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--PORTFOLIO-->
-    <section id="portfolio">
-      <div class="container my-portfolio-container">
-        <div class="row text-center px-1">
-          <h1 class="fs-2 fw-bold">PORTFOLIO</h1>
-          <div class="col-md-4 col-sm-12 col-12">
-            <img
-              class="myImg"
-              src="./files/telebot.webp"
-              alt="PHP framework for creating telegram bots (TeleBot)"
-              style="width: 100%"
-            />
-            <p>
-              PHP framework for creating telegram bots (TeleBot)<br /><a
-                target="_blank"
-                href="https://github.com/arashabedii/telebot"
-                ><small>Open github</small></a
-              >
-            </p>
-          </div>
-          <div class="col-md-4 col-sm-12 col-12">
-            <img
-              class="myImg"
-              id="myImg"
-              src="./files/ostfly.webp"
-              alt="Music streaming website (OSTFly)"
-              style="width: 100%"
-            />
-            <p>
-              Music streaming website (Korefy)
-              <!-- <a
-                target="_blank"
-                href="https://korefy.com"
-                ><br /><small>Open website</small></a 
-              > -->
-            </p>
-          </div>
-
-          <div class="col-md-4 col-sm-12 col-12">
-            <img
-              class="myImg"
-              src="./files/owldl.webp"
-              alt="Web content downloader (owldl)"
-              style="width: 100%"
-            />
-            <p>
-              Web content downloader (owldl)<br />
-              <!-- <a
-                target="_blank"
-                href="https://owldl.xyz"
-                ><small>open website</small></a 
-              > -->
-            </p>
-          </div>
-
-          <div class="col-md-4 col-sm-12 col-12">
-            <img
-              class="myImg"
-              src="./files/listify_music_hunter.webp"
-              alt="Music recognization telegram bot"
-              style="width: 100%"
-            />
-            <p>
-              Music recognization telegram bot<br />
-              <!-- <a
-                href="https://t.me/jpmusicbot?start"
-                target="_blank"
-                ><small>Open bot</small></a 
-              > -->
-            </p>
-          </div>
-
-          <div class="col-md-4 col-sm-12 col-12">
-            <img
-              class="myImg"
-              id="myImg"
-              src="./files/cms.webp"
-              alt="Content management system (CMS)"
-              style="width: 100%"
-            />
-            <p>Content management system (CMS)</p>
-          </div>
-
-          <div class="col-md-4 col-sm-12 col-12">
-            <img
-              class="myImg"
-              src="./files/flora.webp"
-              alt="Flowers shopping website ( Flora )"
-              style="width: 100%"
-            />
-            <p>Flowers shopping website ( Flora )</p>
-          </div>
-
-          <!-- The Modal -->
-          <div id="myModal" class="modal">
-            <span class="close">&times;</span>
-            <img class="modal-content" id="img01" />
-            <div id="caption"></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--FOOTER-->
-    <footer id="contact">
-      <div class="container-fluid">
-        <div class="my-contact">
-          <h1>
-            <a href="mailto: arashabedi.dev@gmail.com">SEND ME MESSAGE</a>
-          </h1>
-          <p class="my-copyright">
-            &copy; 2025 arashabedii.github.io. All Rights Reserved.
+        <a href="https://github.com/arashabedii/telebot"
+          class="group block rounded-2xl bg-gray-800 p-6 hover:bg-gray-700 transition shadow-lg">
+          <h3 class="text-xl font-medium text-indigo-400 group-hover:underline">TeleBot</h3>
+          <p class="text-gray-400 text-sm mt-2">PHP framework for creating Telegram bots.</p>
+        </a>
+        <a href="https://korefy.com"
+          class="group block rounded-2xl bg-gray-800 p-6 hover:bg-gray-700 transition shadow-lg">
+          <h3 class="text-xl font-medium text-indigo-400 group-hover:underline">Korefy</h3>
+          <p class="text-gray-400 text-sm mt-2">An educational music streaming website, created with Laravel & Vue.js
           </p>
-          <div class="my-contact-icons-row">
-            <ul>
-              <li>
-                <a href="https://github.com/arashabedii" target="_blank"
-                  ><i class="fab fa-github-square github"></i
-                ></a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/dev-arashabedi"
-                  target="_blank"
-                  ><i class="fab fa-linkedin linkedin"></i
-                ></a>
-              </li>
-              <li>
-                <a href="mailto: arashabedi.dev@gmail.com"
-                  ><i class="fas fa-envelope email"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-        </div>
+        </a>
+        <a href="https://github.com/ArashAbedii/requester"
+          class="group block rounded-2xl bg-gray-800 p-6 hover:bg-gray-700 transition shadow-lg">
+          <h3 class="text-xl font-medium text-indigo-400 group-hover:underline">Requester</h3>
+          <p class="text-gray-400 text-sm mt-2">A simple, fast, and lightweight PHP class for sending HTTP requests</p>
+        </a>
+        <a href="https://github.com/ArashAbedii/pydownloader"
+          class="group block rounded-2xl bg-gray-800 p-6 hover:bg-gray-700 transition shadow-lg">
+          <h3 class="text-xl font-medium text-indigo-400 group-hover:underline">Web content downloader</h3>
+          <p class="text-gray-400 text-sm mt-2">A python lib for downloading files with multi threads
+          </p>
+        </a>
       </div>
-    </footer>
+    </div>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
-      integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
-      integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="js/rating.js"></script>
-    <script src="js/app.js"></script>
+    <!-- Contact -->
+    <div class="space-y-4 animate-fade-in">
+      <h2 class="text-2xl font-semibold">Get In Touch</h2>
+      <p class="text-gray-400">Have a project in mind or just want to say hi? Let’s connect.</p>
+      <a href="mailto:arashabedi.dev@gmail.com"
+        class="inline-flex items-center gap-2 rounded-xl bg-indigo-500 px-6 py-3 text-white font-medium hover:bg-indigo-600 transition transform hover:-translate-y-1 hover:shadow-lg">
+        <i data-lucide="send" class="w-5 h-5"></i>
+        Message Me
+      </a>
+    </div>
 
-    <script>
-      // Get the modal
-      var modal = document.getElementById("myModal");
+  </section>
 
-      // Get the image and insert it inside the modal - use its "alt" text as a caption
-      //var img = document.getElementById("myImg")
-      //console.log(img);
-      var modalImg = document.getElementById("img01");
-      var captionText = document.getElementById("caption");
-      $(".myImg").on("click", function () {
-        modal.style.display = "block";
-        modal.style.zIndex = "100";
-        modalImg.src = this.src;
-        modalImg.style.zIndex = "150";
-        captionText.innerHTML = this.alt;
-      });
+  <script>
+    lucide.createIcons();
+  </script>
 
-      // Get the <span> element that closes the modal
-      var span = document.getElementsByClassName("close")[0];
+  <style>
+    @keyframes fade-in {
+      from {
+        opacity: 0;
+      }
 
-      // When the user clicks on <span> (x), close the modal
-      span.onclick = function () {
-        modal.style.display = "none";
-      };
-    </script>
-  </body>
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes slide-up {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .animate-fade-in {
+      animation: fade-in 1s ease forwards;
+    }
+
+    .animate-fade-in-delay {
+      animation: fade-in 1.5s ease forwards;
+    }
+
+    .animate-slide-up {
+      animation: slide-up 1.2s ease forwards;
+    }
+  </style>
+</body>
+
 </html>
