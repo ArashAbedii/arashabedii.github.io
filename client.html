@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Arash Abedi | Websites, Booking &amp; Payments for Small Businesses</title>
+<meta name="description" content="I build fast websites, online booking and payment systems for small businesses, set them up with SEO, and look after them once they're live. Message me on WhatsApp.">
+<meta name="theme-color" content="#EDF1EE">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  /* Replace 44XXXXXXXXXX with your WhatsApp number (no +, no spaces) and hello@example.com with your email */
+  :root{
+    --bg:#EDF1EE; --card:#FFFFFF; --ink:#10262B; --soft:#5E7176; --faint:#8A9A9E;
+    --line:#E3E9E5; --jade:#0E7A5C; --jade-dark:#0A5E47; --mint:#DDEFE6;
+    --shadow-c:16,38,43; --r:16px; --rs:11px;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#0C1716; --card:#132220; --ink:#EAF3EF; --soft:#A7BDB7; --faint:#71897F;
+      --line:#20322E; --jade:#2BD99A; --jade-dark:#7CF0C6; --mint:rgba(43,217,154,.16);
+      --shadow-c:0,0,0;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;min-height:100vh;min-height:100dvh;background:var(--bg);color:var(--ink);
+    font:400 15px/1.5 "Onest",system-ui,"Segoe UI",-apple-system,sans-serif;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;display:flex;justify-content:center}
+  a{color:inherit;text-decoration:none}
+  button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+  a:focus-visible,button:focus-visible{outline:2px solid var(--jade);outline-offset:2px;border-radius:10px}
+  img{display:block;max-width:100%}
+
+  .app{width:100%;max-width:440px;padding:max(32px,env(safe-area-inset-top)) 20px 28px;display:flex;flex-direction:column}
+
+  /* header, no avatar: identity carried by type alone */
+  .name{margin:0;font-size:25px;font-weight:800;letter-spacing:-.02em;line-height:1.15}
+  .tagline{margin:6px 0 0;font-size:17px;font-weight:600;color:var(--ink);line-height:1.4;letter-spacing:-.01em}
+  .intro{margin:12px 0 0;font-size:15px;color:var(--soft);line-height:1.55;max-width:38ch}
+  .status{margin:14px 0 0;display:flex;align-items:center;gap:7px;font-size:13px;color:var(--soft)}
+  .status i{width:7px;height:7px;border-radius:50%;background:var(--jade);flex:none}
+
+  /* actions: one decisive primary action, one quiet fallback */
+  .actions{margin-top:24px}
+  .wa{display:flex;align-items:center;justify-content:center;gap:10px;height:56px;border-radius:var(--r);
+    background:var(--jade);color:#fff;font-size:16px;font-weight:700;letter-spacing:-.005em;
+    box-shadow:0 14px 28px -16px rgba(14,122,92,.55);transition:transform .12s,background-color .12s,box-shadow .12s}
+  .wa svg{width:20px;height:20px;flex:none}
+  .wa:hover{background:var(--jade-dark);box-shadow:0 16px 30px -14px rgba(14,122,92,.6)}
+  .wa:active{transform:scale(.98)}
+  .fallback{margin-top:12px;display:flex;align-items:center;justify-content:center;gap:14px;font-size:13.5px}
+  .fallback a{display:inline-flex;align-items:center;gap:6px;color:var(--soft);font-weight:600;padding:4px 2px}
+  .fallback a:hover{color:var(--ink)}
+  .fallback a svg{width:15px;height:15px;color:var(--faint)}
+  .fallback .sep{color:var(--line)}
+  .avail{margin:14px 0 0;font-size:12.5px;color:var(--faint);text-align:center}
+
+  /* stats: plain, no box */
+  .stats{margin-top:32px;display:grid;grid-template-columns:1fr 1fr 1fr;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:18px 0}
+  .stats div{text-align:center;padding:0 4px;position:relative}
+  .stats div + div::before{content:"";position:absolute;left:0;top:4px;bottom:4px;width:1px;background:var(--line)}
+  .stats b{display:block;font-size:19px;font-weight:800;letter-spacing:-.01em}
+  .stats span{display:block;margin-top:4px;font-size:11.5px;line-height:1.3;color:var(--faint)}
+
+  /* section label */
+  .label{margin:34px 0 14px;font-size:13px;font-weight:700;color:var(--ink)}
+  section:first-of-type .label{margin-top:34px}
+
+  /* services: hairline rows, no outer box */
+  .services{list-style:none;margin:0;padding:0}
+  .services li{display:flex;align-items:flex-start;gap:13px;padding:14px 0}
+  .services li + li{border-top:1px solid var(--line)}
+  .services .ico{flex:none;width:32px;height:32px;border-radius:var(--rs);background:var(--mint);display:grid;place-items:center;color:var(--jade-dark);margin-top:1px}
+  .services .ico svg{width:16px;height:16px}
+  .services b{display:block;font-size:15px;font-weight:600;line-height:1.3}
+  .services p{margin:3px 0 0;font-size:13.5px;color:var(--soft);line-height:1.5}
+
+  /* work: generous cards, two separate tap targets */
+  .work{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:18px}
+  .work li{border-radius:var(--r);overflow:hidden;background:var(--card);box-shadow:0 0 0 1px var(--line)}
+  .shot{display:block;position:relative;width:100%;aspect-ratio:4/3;overflow:hidden;background:var(--line)}
+  .shot img{width:100%;height:100%;object-fit:cover;transition:transform .3s ease}
+  .shot:hover img{transform:scale(1.03)}
+  .shot .zoom{position:absolute;right:10px;bottom:10px;width:30px;height:30px;border-radius:50%;
+    background:rgba(16,38,43,.55);color:#fff;display:grid;place-items:center;backdrop-filter:blur(2px)}
+  .shot .zoom svg{width:14px;height:14px}
+  .wmeta{padding:16px 16px 18px}
+  .wmeta b{display:block;font-size:16px;font-weight:700;line-height:1.3}
+  .wmeta p{margin:5px 0 0;font-size:13.5px;color:var(--soft);line-height:1.55}
+  .visit{margin-top:14px;display:inline-flex;align-items:center;gap:6px;height:36px;padding:0 14px;
+    border-radius:999px;background:var(--mint);color:var(--jade-dark);font-size:13px;font-weight:700}
+  .visit svg{width:13px;height:13px}
+  .visit:hover{background:var(--jade);color:#fff}
+
+  footer{margin-top:36px;padding-top:22px;border-top:1px solid var(--line);text-align:center;font-size:12.5px;color:var(--faint)}
+  footer p{margin:0 0 6px}
+  footer a{text-decoration:underline;text-underline-offset:2px}
+
+  /* lightbox */
+  dialog.lightbox{border:none;padding:0;background:transparent;max-width:94vw;max-height:90vh;margin:auto}
+  dialog.lightbox::backdrop{background:rgba(5,10,10,.78)}
+  dialog.lightbox img{display:block;max-width:94vw;max-height:90vh;width:auto;height:auto;border-radius:14px}
+  .lb-close{position:fixed;top:16px;right:16px;width:40px;height:40px;border-radius:50%;
+    background:rgba(255,255,255,.14);color:#fff;display:grid;place-items:center;backdrop-filter:blur(4px)}
+  .lb-close svg{width:18px;height:18px}
+
+  .reveal{opacity:1}
+  .js .reveal{opacity:0;transform:translateY(14px);transition:opacity .5s ease,transform .5s ease}
+  .js .reveal.is-visible{opacity:1;transform:translateY(0)}
+
+  @media (min-width:600px){
+    body{align-items:center}
+    .app{background:var(--card);border-radius:28px;padding:40px 32px 32px;margin:40px 0;box-shadow:0 1px 0 rgba(var(--shadow-c),.04),0 30px 60px -36px rgba(var(--shadow-c),.35)}
+  }
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="app">
+
+  <header>
+    <h1 class="name">Arash Abedi</h1>
+    <p class="tagline">Websites, booking &amp; payments for small businesses</p>
+    <p class="intro">Fast, professional sites with SEO built in, so new customers can find you and book you without calling.</p>
+    <p class="status"><i aria-hidden="true"></i>Available for new projects</p>
+  </header>
+
+  <nav class="actions" aria-label="Contact">
+    <a class="wa" href="https://wa.me/447770388457" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.5 0-3-.4-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.2.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1 2.7c.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>
+      Chat on WhatsApp
+    </a>
+    <p class="fallback">
+      <a href="mailto:arashabedi.dev@gmail.com">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></svg>
+        Email
+      </a>
+      <span class="sep">&middot;</span>
+      <a href="https://www.linkedin.com/in/arash-abedi" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M7 9v8M7 6.2v.1"/><path d="M11 17V9m0 3.5c0-2 1.5-3.5 3.5-3.5S18 10.5 18 12.5V17"/></svg>
+        LinkedIn
+      </a>
+    </p>
+    <p class="avail">Usually replies within a few hours &middot; English &amp; Persian</p>
+  </nav>
+
+  <section class="stats reveal" aria-label="Experience">
+    <div><b>5+</b><span>years in production</span></div>
+    <div><b>20+</b><span>sites &amp; systems shipped</span></div>
+    <div><b>EN/FA</b><span>bilingual delivery</span></div>
+  </section>
+
+  <section class="reveal">
+    <h2 class="label">What I build</h2>
+    <ul class="services">
+      <li>
+        <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2.5"/><path d="M3 9h18"/><circle cx="6.3" cy="6.5" r=".6" fill="currentColor" stroke="none"/><circle cx="8.3" cy="6.5" r=".6" fill="currentColor" stroke="none"/></svg></span>
+        <div><b>Websites</b><p>Fast, mobile-friendly sites that make a strong first impression.</p></div>
+      </li>
+      <li>
+        <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2.5"/><path d="M3 10h18M8 3v4M16 3v4"/><path d="m8.5 14.5 2 2 4.5-4.5"/></svg></span>
+        <div><b>Online booking</b><p>Customers pick a time and book, no back-and-forth calls.</p></div>
+      </li>
+      <li>
+        <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5.5" width="19" height="13" rx="2.5"/><path d="M2.5 10h19"/><path d="M6 14.5h4"/></svg></span>
+        <div><b>Payments</b><p>Accept cards and online payments safely, built right in.</p></div>
+      </li>
+      <li>
+        <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m20 20-4.8-4.8"/></svg></span>
+        <div><b>SEO setup</b><p>Set up properly so Google can find and rank your site.</p></div>
+      </li>
+    </ul>
+  </section>
+
+  <main class="reveal">
+    <h2 class="label">Recent work</h2>
+    <ul class="work">
+      <li>
+        <button class="shot" type="button" data-lightbox="images/work/aadya.webp" data-alt="Aadya Wellbeing homepage, a wellness retreats and events website" aria-label="Enlarge screenshot of Aadya Wellbeing">
+          <img src="images/work/aadya.webp" alt="Aadya Wellbeing homepage, a wellness retreats and events website" loading="lazy" width="900" height="698">
+          <span class="zoom" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v3M16 3h3a2 2 0 0 1 2 2v3M21 16v3a2 2 0 0 1-2 2h-3M8 21H5a2 2 0 0 1-2-2v-3"/></svg></span>
+        </button>
+        <div class="wmeta">
+          <b>Aadya Wellbeing</b>
+          <p>Retreats &amp; events site for a wellness brand in Sydney, with booking for in-person events.</p>
+          <a class="visit" href="https://aadyawellbeing.com" target="_blank" rel="noopener">Visit site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+        </div>
+      </li>
+      <li>
+        <button class="shot" type="button" data-lightbox="images/work/nomtech.webp" data-alt="Online booking page for a Tehran beauty salon, built on the NomTech platform" aria-label="Enlarge screenshot of NomTech">
+          <img src="images/work/nomtech.webp" alt="Online booking page for a Tehran beauty salon, built on the NomTech platform" loading="lazy" width="900" height="633">
+          <span class="zoom" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v3M16 3h3a2 2 0 0 1 2 2v3M21 16v3a2 2 0 0 1-2 2h-3M8 21H5a2 2 0 0 1-2-2v-3"/></svg></span>
+        </button>
+        <div class="wmeta">
+          <b>NomTech</b>
+          <p>Online booking platform for beauty salons. Shown here: a live salon taking real appointments.</p>
+          <a class="visit" href="https://app.nomtech.co/b/dayan-beauty" target="_blank" rel="noopener">Visit site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+        </div>
+      </li>
+      <li>
+        <button class="shot" type="button" data-lightbox="images/work/adofy.webp" data-alt="Adofy ad marketplace dashboard, shown in Persian" aria-label="Enlarge screenshot of Adofy">
+          <img src="images/work/adofy.webp" alt="Adofy ad marketplace dashboard, shown in Persian" loading="lazy" width="900" height="577">
+          <span class="zoom" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v3M16 3h3a2 2 0 0 1 2 2v3M21 16v3a2 2 0 0 1-2 2h-3M8 21H5a2 2 0 0 1-2-2v-3"/></svg></span>
+        </button>
+        <div class="wmeta">
+          <b>Adofy</b>
+          <p>Ad marketplace with built-in payments for marketing agencies in Iran.</p>
+          <a class="visit" href="https://adofy.top" target="_blank" rel="noopener">Visit site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+        </div>
+      </li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Arash Abedi</p>
+    <p><a href="https://arashabedii.github.io/index.html">Technical portfolio</a></p>
+  </footer>
+</div>
+
+<dialog class="lightbox" id="lightbox">
+  <button class="lb-close" type="button" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+  <img id="lightboxImg" src="" alt="">
+</dialog>
+
+<script>
+  document.documentElement.classList.add('js');
+
+  var revealEls = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+    revealEls.forEach(function (el) { observer.observe(el); });
+  } else {
+    revealEls.forEach(function (el) { el.classList.add('is-visible'); });
+  }
+
+  var dialog = document.getElementById('lightbox');
+  var lbImg = document.getElementById('lightboxImg');
+  document.querySelectorAll('[data-lightbox]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      lbImg.src = btn.getAttribute('data-lightbox');
+      lbImg.alt = btn.getAttribute('data-alt') || '';
+      dialog.showModal();
+    });
+  });
+  dialog.addEventListener('click', function (e) {
+    if (e.target === dialog) dialog.close();
+  });
+  dialog.querySelector('.lb-close').addEventListener('click', function () { dialog.close(); });
+</script>
+</body>
+</html>
